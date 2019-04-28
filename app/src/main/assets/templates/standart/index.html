@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title></title>
+  <style media="screen">
+    body {
+      padding: 5vw;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .nameField {
+      color: royalblue;
+    }
+
+    .contactDetailSection {
+      display: flex;
+      justify-content: space-evenly;
+
+      height: 50px;
+      border-bottom: darkgray solid 2px;
+      border-top: lightgray solid 2px;
+    }
+
+    .sectionTitle {
+      color: royalblue;
+    }
+
+    .skillItem {
+      background-color: royalblue;
+      color: white;
+      padding: 1%;
+      width: fit-content;
+      height: fit-content;
+      white-space: nowrap;
+      border-radius: 10px;
+      margin: 1% 1%;
+    }
+
+    .skillsSection {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      height: fit-content;
+      flex-wrap: wrap;
+
+    }
+
+    .companyName {
+      font-weight: 100;
+      margin: 0 auto;
+    }
+
+    .timelineSection {
+      margin: 0 auto;
+      color: gray;
+      font-style: italic;
+    }
+
+    .langItem{
+      margin: 0 5%;
+    }
+
+    .languageTitle{
+      margin: 0;
+    }
+
+    .langSubtitle{
+          color: royalblue;
+    }
+
+    .langSection{
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="headSection">
+    <h1 class="nameField" id="userFullname">Loren Ipsum</h1>
+    <h5 class="careerTitle" id="careerTitle">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h5>
+    <p class="regularText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+  </section>
+  <div class="contactDetailSection" id="contactDetails">
+  </div>
+
+  <h3 class="sectionTitle">SKILLS</h3>
+  <div class="skillsSection" id="skills">
+    <div class="skillItem">
+      Android development
+    </div>
+
+    <div class="skillItem">
+      iOS development
+    </div>
+
+    <div class="skillItem">
+      Web development
+    </div>
+
+    <div class="skillItem">
+      SEO
+    </div>
+
+    <div class="skillItem">
+      Marketing
+    </div>
+  </div>
+
+  <h3 class="sectionTitle">WORK EXPERIANCE</h3>
+  <div class="workSection">
+    <h4 class="positionTitle" id="position">Android developer</h4>
+    <a class="companyName" id="companyName">La - Mark LTD</a>
+    <p class="timelineSection" id="timeline">07/12/91 - 07/12/91</p>
+    <ul>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+    </ul>
+  </div>
+
+  <div class="workSection">
+    <h4 class="positionTitle" id="position">Android developer</h4>
+    <a class="companyName" id="companyName">La - Mark LTD</a>
+    <p class="timelineSection" id="timeline">07/12/91 - 07/12/91</p>
+    <ul>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+      <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book.</li>
+    </ul>
+  </div>
+
+  <h3 class="sectionTitle">EDUCATION</h3>
+  <div class="educationSection">
+    <h4 class="positionTitle" id="degree">Programmer associate degree</h4>
+    <a class="companyName" id="academyName">HackerU</a>
+    <p class="timelineSection" id="timeline">07/12/91 - 07/12/91</p>
+  </div>
+
+  <h3 class="sectionTitle">LANGUAGES</h3>
+  <div class="langSection">
+    <div class="langItem">
+      <h4 class="languageTitle" id="language">English</h4>
+      <label class="langSubtitle" for="language">Good</label>
+    </div>
+    <div class="langItem">
+      <h4  class="languageTitle" id="language">French</h4>
+      <label class="langSubtitle" for="language">Good</label>
+    </div>
+    <div class="langItem">
+      <h4  class="languageTitle" id="language">Greman</h4>
+      <label class="langSubtitle" for="language">Good</label>
+    </div>
+  </div>
+</body>
+
+</html>
