@@ -1,4 +1,4 @@
-package com.pk.cvwizard.templatechooser
+package com.pk.cvwizard.UI.templatechooser
 
 import android.view.LayoutInflater
 import android.view.View

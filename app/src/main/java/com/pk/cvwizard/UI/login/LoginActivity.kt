@@ -1,4 +1,4 @@
-package com.pk.cvwizard.login
+package com.pk.cvwizard.UI.login
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

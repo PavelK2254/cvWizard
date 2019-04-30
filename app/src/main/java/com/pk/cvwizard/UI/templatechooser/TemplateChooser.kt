@@ -1,4 +1,4 @@
-package com.pk.cvwizard.templatechooser
+package com.pk.cvwizard.UI.templatechooser
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.pk.cvwizard.R
-import com.pk.cvwizard.interfaces.ITemplateClickListener
 import kotlinx.android.synthetic.main.activity_template_chooser.*
 
 class TemplateChooser : AppCompatActivity() {

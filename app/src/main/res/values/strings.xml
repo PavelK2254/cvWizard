@@ -3,5 +3,5 @@
 	<string name="title_home">Home</string>
 	<string name="title_dashboard">Dashboard</string>
 	<string name="title_notifications">Notifications</string>
-	<string name="sign_up_with_your_email">Or \n Sign up with your email</string>
+	<string name="sign_up_with_your_email">Or \n Sign up with your email</string><string name="home_fullname">Full name</string><string name="home_email">Email</string><string name="home_phone_number">Phone Number</string><string name="home_city">City</string>
 </resources>

@@ -1,10 +1,10 @@
-package com.pk.cvwizard.templatechooser
+package com.pk.cvwizard.UI.templatechooser
 
 import android.app.Application
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.AndroidViewModel
-import com.pk.cvwizard.MainActivity
+import com.pk.cvwizard.UI.MainActivity
 import com.pk.cvwizard.R
 import com.pk.cvwizard.interfaces.ITemplateClickListener
 
